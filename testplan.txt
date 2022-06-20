@@ -1,0 +1,48 @@
+Positive;
+
+1: should able to login/logout with admin user.
+Test Scenario:
+#. access login page, should succeed
+#. login using admin user, should succeed
+#. logout, should succeed
+
+2: should able to keep logged-in/logout with admin user.
+Test Scenario:
+#. access login page, should succeed
+#. login using admin user, should succeed
+#. access login page again should redirect to home page, should succeed
+#. logout, should succeed
+
+3: should able to login/logout with normal user.
+Test Scenario:
+#. access login page, should succeed
+#. login using normal user, should succeed
+#. logout, should succeed
+
+4: should not able to login with non exist user.
+Test Scenario:
+#. access login page, should succeed
+#. login using non exist user, should fail
+
+5: should not able to login with wrong password.
+Test Scenario:
+#. access login page, should succeed
+#. login using wrong password, should fail
+
+
+Negative;
+
+1: should not able to login with; long text.
+Test Scenario:
+#. access login page, should succeed
+#. login using long text, should fail
+
+2: should not able to login with; special chars text.
+Test Scenario:
+#. access login page, should succeed
+#. login using special chars text, should fail
+
+3: should not able to login with; spaces text.
+Test Scenario:
+#. access login page, should succeed
+#. login using spaces text, should fail

@@ -1,0 +1,15 @@
+{
+  "name": "lightweight-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^10.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mahmoud Ali",
+  "license": "ISC"
+}
